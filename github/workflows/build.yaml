@@ -26,5 +26,5 @@ jobs:
           context: ./
           push: true
           tags: |
-                theakila/Docker-Automation:${{ env.SHORT_SHA }}
-                theakila/Docker-Automation:latest
+                theakila/docker-automation:${{ env.SHORT_SHA }}
+                theakila/docker-automation:latest
